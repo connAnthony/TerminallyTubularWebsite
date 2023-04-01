@@ -1,0 +1,53 @@
+@font-face {
+    font-family: 'Anonymous Pro';
+    src: local('fonts/AnonymousPro-Regular.ttf') format('truetype');
+  }
+
+
+@font-face {
+    font-family: 'IBM';
+    src: local('fonts/CourierPrime-Regular.ttf') format('truetype');
+  }
+  
+body p {
+    font-size: 25px;
+    color: white;
+  }
+
+
+  /* Header styles */
+header {
+    color: black;
+    padding: 10px;
+    text-align: center;
+    font-size: 25px;
+  }
+  
+h1 {
+    margin: 0;
+    color: white;
+    font-family: monospace;
+    font-size: 25px;
+  }
+
+
+
+pre {
+    margin: 0;
+    color: white;
+    font-family: Courier, "IBM", monospace;
+    font-size: 25px;
+  }
+
+
+body p {
+    margin: 0;
+    color: white;
+    font-family: monospace;
+    font-size: 25px;
+  }
+
+input {
+    float: left;
+    margin-right: 10px;
+    }
